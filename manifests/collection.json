@@ -1,0 +1,15 @@
+{
+  "id" : "https://ARCrowe333.github.io/LinaTestTwo/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in ARCrowe333/LinaTestTwo project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://ARCrowe333.github.io/LinaTestTwo/manifests/manifest.json",
+    "label" : {
+      "en" : [ "Lina's IIIF manifest" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
