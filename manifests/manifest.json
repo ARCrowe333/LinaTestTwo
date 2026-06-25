@@ -1,0 +1,186 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://ARCrowe333.github.io/LinaTestTwo/manifests/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Lina's IIIF manifest" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Creator" ]
+    },
+    "value" : {
+      "en" : [ "Lina" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Description" ]
+    },
+    "value" : {
+      "en" : [ "Images" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/s8fwahurlf-mqr693ki/canvas/cn6ekvat9cw-mqr6gyc3",
+    "type" : "Canvas",
+    "height" : 4080,
+    "width" : 3072,
+    "label" : {
+      "en" : [ "Image 1" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Location" ]
+      },
+      "value" : {
+        "en" : [ "Pittsburgh" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Category" ]
+      },
+      "value" : {
+        "en" : [ "Infrastructure" ]
+      }
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/pxl-20260619-160740173%2fPXL_20260619_160740173.jpg/full/384,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 510,
+      "width" : 384
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/s8fwahurlf-mqr693ki/canvas/cn6ekvat9cw-mqr6gyc3/annotation-page/7txvdciquxu-mqr6gyc3",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/s8fwahurlf-mqr693ki/annotation/32z2prlw9v6-mqr6gyc3",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/s8fwahurlf-mqr693ki/canvas/cn6ekvat9cw-mqr6gyc3",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/pxl-20260619-160740173%2fPXL_20260619_160740173.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4080,
+          "width" : 3072,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/pxl-20260619-160740173%2fPXL_20260619_160740173.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3072,
+            "height" : 4080,
+            "sizes" : [ {
+              "width" : 96,
+              "height" : 128
+            }, {
+              "width" : 192,
+              "height" : 255
+            }, {
+              "width" : 384,
+              "height" : 510
+            }, {
+              "width" : 768,
+              "height" : 1020
+            }, {
+              "width" : 1536,
+              "height" : 2040
+            }, {
+              "width" : 3072,
+              "height" : 4080
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 12533760,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/s8fwahurlf-mqr693ki/canvas/8k38dv5zaa-mqr6oqvy",
+    "type" : "Canvas",
+    "height" : 935,
+    "width" : 526,
+    "label" : {
+      "en" : [ "Image 2" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Location" ]
+      },
+      "value" : {
+        "en" : [ "Denver" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Category" ]
+      },
+      "value" : {
+        "en" : [ "Hotels" ]
+      }
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/720457558-10215255765824912-7511803591054687044-n%2f720457558_10215255765824912_7511803591054687044_n.jpg/full/526,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 935,
+      "width" : 526
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/s8fwahurlf-mqr693ki/canvas/8k38dv5zaa-mqr6oqvy/annotation-page/swxgi557l2g-mqr6oqvy",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/s8fwahurlf-mqr693ki/annotation/5ku8nvehr8k-mqr6oqvy",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/s8fwahurlf-mqr693ki/canvas/8k38dv5zaa-mqr6oqvy",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/720457558-10215255765824912-7511803591054687044-n%2f720457558_10215255765824912_7511803591054687044_n.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 935,
+          "width" : 526,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/720457558-10215255765824912-7511803591054687044-n%2f720457558_10215255765824912_7511803591054687044_n.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 526,
+            "height" : 935,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 117
+            }, {
+              "width" : 132,
+              "height" : 234
+            }, {
+              "width" : 263,
+              "height" : 468
+            }, {
+              "width" : 526,
+              "height" : 935
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 491810,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
